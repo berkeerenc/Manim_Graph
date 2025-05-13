@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/1185818338_2167084100_223132457.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_3201849554_873503597.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_3802699607_2544868989.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_1783827292_623877193.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_3201849554_2867426029.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_280776968_1514677307.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_3201849554_1092611773.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_1857859445_638304739.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_1202891561_185916571.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_2704686740_677506453.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_3696719510_2274566395.mp4'
+file 'file:C:/Discrete A3/media/videos/tsp_intro/480p15/partial_movie_files/TSPIntro/624642324_2408024828_226890110.mp4'
