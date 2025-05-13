@@ -1,3 +1,4 @@
+
 # ✨ Traveling Salesman Problem – Visual Explanation with Manim
 
 This project is a visual and animated explanation of the **Traveling Salesman Problem (TSP)**, using [Manim](https://www.manim.community/) — a mathematical animation engine for Python.
@@ -40,3 +41,85 @@ The explanation is broken into 5 animated scenes:
 
 ## 📂 Project Structure
 
+```
+📁 TSP_Manim_Project/
+├── tsp_intro.py          # Scene 1
+├── tsp_graph.py          # Scene 2
+├── tsp_bfs.py            # Scene 3
+├── tsp_route.py          # Scene 4
+├── tsp_conclusion.py     # Scene 5
+├── videos/
+│   ├── TSPIntro.mp4
+│   ├── TSPGraph.mp4
+│   ├── TSPBFS.mp4
+│   ├── TSPRoute.mp4
+│   └── TSPConclusion.mp4
+└── TSP_Full.mp4          # Combined full video (optional)
+```
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.10+
+- Manim Community Edition (`pip install manim`)
+- ffmpeg (for combining videos if needed)
+- LaTeX (MikTeX or TeXLive) for rendering math formulas
+
+---
+
+## 🚀 How to Run a Scene
+
+Each scene is a standalone Manim script.
+
+Example:
+```bash
+manim -pql tsp_intro.py TSPIntro
+```
+
+For all scenes:
+```bash
+manim -pql tsp_graph.py TSPGraph
+manim -pql tsp_bfs.py TSPBFS
+manim -pql tsp_route.py TSPRoute
+manim -pql tsp_conclusion.py TSPConclusion
+```
+
+---
+
+## 🔗 Optional: Combine All Videos
+
+Using `ffmpeg`, create a `file_list.txt`:
+
+```
+file 'TSPIntro.mp4'
+file 'TSPGraph.mp4'
+file 'TSPBFS.mp4'
+file 'TSPRoute.mp4'
+file 'TSPConclusion.mp4'
+```
+
+Then run:
+```bash
+ffmpeg -f concat -safe 0 -i file_list.txt -c copy TSP_Full.mp4
+```
+
+---
+
+## 📷 Preview
+
+*(Optional: Add screenshots or GIFs from your rendered scenes here)*
+
+---
+
+## 🧑‍💻 Author
+
+- 💡 **Berke Erenç**  
+- 🏫 Akdeniz University – Computer Engineering  
+- 🎓 Project for CSE 222 Discrete Mathematics II
+
+---
+
+## 📜 License
+
+This project is open for educational use. Attribution is appreciated.
